@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2021",
+		"moduleResolution": "node",
+		"useDefineForClassFields": false, // ensure correct behaviour of class fields with decorators
+		"outDir": "dist",
+		"sourceMap": true,
+		"allowJs": false,
+		"checkJs": false,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"lib": [
+			"es2021"
+		],
+		"declaration": true,
+	},
+	"include": [
+		"src"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

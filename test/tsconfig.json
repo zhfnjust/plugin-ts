@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2021",
+		"moduleResolution": "node",
+		"allowJs": false,
+		"checkJs": false,
+		"rootDir": "../",
+		"outDir": "out",
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"skipLibCheck": true,
+		"lib": [
+			"es2021"
+		],
+		"plugins": [
+			{
+				"transform": "../src/main.ts",
+				"transformProgram": "true",
+				"debug": true,
+				"outDir": "scrypts"
+			}
+		]
+	},
+	"include": [
+		"./**/*.ts"
+	],
+}
